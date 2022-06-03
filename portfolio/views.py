@@ -27,3 +27,4 @@ def licenciatura_page_view(request):
 
 def projetos_page_view(request):
     return render(request, 'projetos.html')
+
