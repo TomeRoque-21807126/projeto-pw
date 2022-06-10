@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Hero</title>
 
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'portfolio/css/hero.css' %}">
+
     <link rel="stylesheet" href="../static/portfolio/css/hero.css">
 
 </head>
@@ -12,10 +15,10 @@
   <header>
     <p>Tomé Roque</p>
     <nav>
-      <a href="home.html">Home</a>
-      <a href="about.html">About me</a>
-      <a href="licenciatura.html">Licenciatura</a>
-      <a href="projetos.html">Projetos</a>
+      <a href="{% url 'portfolio:home' %}">Home</a>
+      <a href="{% url 'portfolio:about' %}">About Me</a>
+      <a href="{% url 'portfolio:licenciatura' %}">Licenciatura</a>
+      <a href="{% url 'portfolio:projetos' %}">Projects</a>
     </nav>
   </header>
 

@@ -28,3 +28,7 @@ def licenciatura_page_view(request):
 def projetos_page_view(request):
     return render(request, 'projetos.html')
 
+
+def hero_page_view(request):
+    return render(request, 'hero.html')
+
