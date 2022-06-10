@@ -18,7 +18,16 @@ def home_page_view(request):
 
 
 def about_page_view(request):
-    return render(request, 'about.html')
+    agora = datetime.datetime.now()
+    local = 'Lisboa'
+    topicos = ['HTML', 'CSS', 'Python', 'Django', 'JavaScript']
+
+    context = {
+        'hora': agora.hour,
+        'local': local,
+        'topicos': topicos,
+    }
+    return render(request, 'about.html', context)
 
 
 def licenciatura_page_view(request):
