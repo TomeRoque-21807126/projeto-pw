@@ -1,0 +1,28 @@
+body > * {
+  /* centrando o <p> dos divs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+
+.exp {
+display: grid;
+height: 600px;
+grid-template-columns: 1fr 3fr 2fr;
+grid-template-rows: 20% 1fr 50px;
+grid-template-areas:
+'header header header show show'
+'menu main right show show'
+'menu footer footer show show';
+}
+
+.uni {
+    grid-area: menu; background-image: url("../images/lusofona-logo.90b1ef77e58f.jpg");
+    }
+.noraya { grid-area: header; background-image: url("../images/noraya-logo.c1a37590637b.png") }
+.louri { grid-area: main; }
+.fute { grid-area: right; }
+.care { grid-area: footer; }
+.skills {grid-area: show;}

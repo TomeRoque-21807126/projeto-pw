@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .cadeiras1o {
 display: flex;
 background-color: #e3f3ff;

@@ -1,0 +1,26 @@
+body > * {
+  /* centrando o <p> dos divs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+
+.exp {
+display: grid;
+height: 600px;
+grid-template-columns: 1fr 3fr 2fr;
+grid-template-rows: 20% 1fr 50px;
+grid-template-areas:
+'header header header show show'
+'menu main right show show'
+'menu footer footer show show';
+}
+
+.uni { grid-area: header; background-image: url(""); }
+.noraya { grid-area: menu; }
+.louri { grid-area: main; }
+.fute { grid-area: right; }
+.care { grid-area: footer; }
+.skills {grid-area: show;}
