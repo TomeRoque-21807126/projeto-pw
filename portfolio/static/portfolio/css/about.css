@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing:border-box;
   font-family: sans-serif;
+
 }
 
 header {
@@ -39,9 +40,29 @@ nav a {
 
 
 main {
-  height: 85vh;
-  background-color:white;
+  height: 45vh;
+  background-color:black;
   padding: 4em 4em;
+  background-image: url("https://cutewallpaper.org/26/best-gifs-for-desktop-wallpaper/animated-gif39s-for-use-in-wallpapers.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+
+}
+
+#grad1 {
+  height: 400px;
+  background-image: url("https://cutewallpaper.org/26/best-gifs-for-desktop-wallpaper/animated-gif39s-for-use-in-wallpapers.gif");
+  background-position: center;
+
+}
+
+
+#gradup {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(transparent 10%, black 80%);
+
 }
 
 footer {
@@ -57,23 +78,41 @@ footer div {
   text-align: center;
 }
 
+h1{
+  padding: 10;
+  margin: 10;
+}
+
+body{
+  padding: 10;
+  margin: 10;
+  background-color: black;
+  color: white;
+}
 
 
-.uni { grid-area: header; }
-.noraya { grid-area: menu; }
-.care { grid-area: main; }
-.fute { grid-area: right; }
+
+.uni { grid-area: menu; background-image: url("../images/lusofona-logo.jpg"); }
+.noraya { grid-area: header; background-image: url("../images/noraya-logo.png"); }
+.care { grid-area: main; background-image: url("../images/people.jpg");}
+.fute { grid-area: right; background-image: url("../images/team.jpg");}
 .skills { grid-area: footer; }
 
 .exp {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'main main main right right right'
+    'menu menu footer footer footer footer';
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 300px 400px 400px 300px 400px;
   gap: 10px;
-  background-color: #2196F3;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 10px;
+  background-color: black;
+  color: white;
 }
 
 .exp > div {
@@ -82,3 +121,8 @@ footer div {
   padding: 20px 0;
   font-size: 30px;
 }
+
+
+
+
+

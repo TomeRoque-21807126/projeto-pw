@@ -92,10 +92,10 @@ body{
 
 
 
-.uni { grid-area: menu; background-image: url("../images/lusofona-logo.jpg"); }
-.noraya { grid-area: header; background-image: url("../images/noraya-logo.png"); }
-.care { grid-area: main; background-image: url("../images/people.jpg");}
-.fute { grid-area: right; background-image: url("../images/team.jpg");}
+.uni { grid-area: menu; background-image: url("../images/lusofona-logo.90b1ef77e58f.jpg"); }
+.noraya { grid-area: header; background-image: url("../images/noraya-logo.c1a37590637b.png"); }
+.care { grid-area: main; background-image: url("../images/people.5b380e3e8c4b.jpg");}
+.fute { grid-area: right; background-image: url("../images/team.09d85f2c8c2a.jpg");}
 .skills { grid-area: footer; }
 
 .exp {
@@ -103,13 +103,11 @@ body{
   grid-template-areas:
     'header header header header header header'
     'main main main right right right'
-    'menu menu footer footer footer footer';
+    'menu footer footer footer footer footer';
   grid-template-columns: 200px 200px 200px 200px 200px;
-  grid-template-rows: 300px 400px 400px 300px 400px;
+  grid-template-rows: 400px 400px 400px 400px 400px;
   gap: 10px;
   background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 10px;
   background-color: black;
   color: white;

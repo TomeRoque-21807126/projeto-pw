@@ -50,21 +50,6 @@ main {
 
 }
 
-#grad1 {
-  height: 400px;
-  background-image: url("https://cutewallpaper.org/26/best-gifs-for-desktop-wallpaper/animated-gif39s-for-use-in-wallpapers.gif");
-  background-position: center;
-
-}
-
-
-#gradup {
-  height: 100%;
-  width: 100%;
-  background: radial-gradient(transparent 10%, black 80%);
-
-}
-
 footer {
   height:5vh;
   display:flex;
@@ -78,38 +63,27 @@ footer div {
   text-align: center;
 }
 
-h1{
-  padding: 10;
-  margin: 10;
-}
-
 body{
-  padding: 10;
-  margin: 10;
   background-color: black;
   color: white;
 }
 
 
 
-.uni { grid-area: menu; background-image: url("../images/lusofona-logo.jpg"); }
-.noraya { grid-area: header; background-image: url("../images/noraya-logo.png"); }
-.care { grid-area: main; background-image: url("../images/people.jpg");}
-.fute { grid-area: right; background-image: url("../images/team.jpg");}
+.uni { grid-area: menu; }
+.noraya { grid-area: header; }
+.care { grid-area: main; }
+.fute { grid-area: right; }
 .skills { grid-area: footer; }
 
 .exp {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'main main main right right right'
-    'menu menu footer footer footer footer';
-  grid-template-columns: 200px 200px 200px 200px 200px;
-  grid-template-rows: 300px 400px 400px 300px 400px;
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
   gap: 10px;
   background-color: black;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 10px;
   background-color: black;
   color: white;
