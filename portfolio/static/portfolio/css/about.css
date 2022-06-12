@@ -97,6 +97,7 @@ body{
   background-image: url("../images/lusofona-logo.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-color: white;
 }
 .noraya {
   grid-area: header;
@@ -130,7 +131,7 @@ body{
     'main main main right right right'
     'menu menu footer footer footer footer';
   grid-template-columns: 200px 200px 200px 200px 200px;
-  grid-template-rows: 300px 400px 400px 300px 400px;
+  grid-template-rows: 300px 300px 300px 300px 300px;
   gap: 10px;
   background-color: black;
   padding: 10px;
@@ -143,7 +144,7 @@ body{
 }
 
 .exp > div {
-  background-color: rgba(255, 255, 255, 0.8);
+
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
