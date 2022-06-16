@@ -13,7 +13,7 @@ urlpatterns = [
     path('quizz', views.quizz, name='quizz'),
 
     path('blog', views.blog_page_view, name='blog'),
-    path('nova/', views.novo_comentario_view, name='nova'),
+    path('novo/', views.novo_comentario_view, name='novo'),
     path('edita/<int:comentario_id>', views.edita_comentario_view, name='edita'),
     path('apaga/<int:comentario_id>', views.apaga_comentario_view, name='apaga'),
 ]
