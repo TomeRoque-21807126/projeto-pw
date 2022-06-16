@@ -176,10 +176,10 @@ height: 100%;
 
 .cadeiras1o div div:last-child{
 width: 150px;
-background-color: black;
+background-color: white;
 padding: 20px;
 border-radius: 0 20px 20px 0;
-
+color:black;
 display: flex;
 justify-content: center;
 align-items: center;
