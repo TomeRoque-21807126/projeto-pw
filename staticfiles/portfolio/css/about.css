@@ -154,7 +154,7 @@ body{
 
 .cadeiras1o {
 display: flex;
-background-color: #e3f3ff;
+background-color: #e9d8f2;
 flex-flow: row wrap;
 justify-content: space-around;
 align-items:space-around;
@@ -171,11 +171,12 @@ margin: 10px;
 .cadeiras1o img{
 border-radius: 20px 0 0 20px;
 height: 100%;
+
 }
 
 .cadeiras1o div div:last-child{
 width: 150px;
-background-color: white;
+background-color: black;
 padding: 20px;
 border-radius: 0 20px 20px 0;
 
@@ -187,7 +188,7 @@ align-items: center;
 
 .cadeiras2o {
 display: flex;
-background-color: #F7EBA3;
+background-color: #d2b2e5;
 flex-flow: row wrap;
 justify-content: space-around;
 align-items:space-around;
@@ -220,7 +221,7 @@ align-items: center;
 
 .cadeiras3o {
 display: flex;
-background-color: #F7AAA3;
+background-color: #ba8cd7;
 flex-flow: row wrap;
 justify-content: space-around;
 align-items:space-around;

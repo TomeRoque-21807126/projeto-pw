@@ -53,8 +53,9 @@ footer {
 }
 
 footer div {
-  display:flex;
-  text-align: center;
+  height: 10vh;
+  background: #B300B2;
+  color: white;
 }
 
 

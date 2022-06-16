@@ -11,6 +11,8 @@
 
     <link rel="icon" type="image/x-icon" href="../static/portfolio/images/icon.ico"/>
 
+
+    <link rel="stylesheet" href="{% static 'portfolio/css/layout.css' %}">
     {% block styles %}
 
     {% endblock %}
@@ -23,8 +25,9 @@
     <nav>
       <a href="{% url 'portfolio:hero' %}">Home</a>
       <a href="{% url 'portfolio:about' %}">About Me</a>
-      <a href="{% url 'portfolio:licenciatura' %}">Licenciatura</a>
-      <a href="{% url 'portfolio:projetos' %}">Projects</a>
+      <a href="{% url 'portfolio:blog' %}">Blog</a>
+      <a href="{% url 'portfolio:quizz' %}">Quizz</a>
+
     </nav>
   </header>
 
