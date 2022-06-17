@@ -1,0 +1,27 @@
+{% extends 'portfolio/layout.html' %}
+
+{% load static %}
+
+{% block title %}Web{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'portfolio/css/web.css' %}">
+
+
+
+{% endblock %}
+
+
+{% block main %}
+
+<div id="grad1"><div id="gradup"></div></div>
+
+<div>
+    <h1>Sobre este Website<br></h1>
+
+    {% load static %}
+    <img src="{% static 'portfolio/images/diagrama.png' %"}>
+
+</div>
+
+{% endblock %}

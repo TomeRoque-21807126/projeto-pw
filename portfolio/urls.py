@@ -9,8 +9,9 @@ urlpatterns = [
     path('', views.hero_page_view, name='hero'),
     path('home', views.about_page_view, name='home'),
     path('about', views.about_page_view, name='about'),
-    path('licenciatura', views.licenciatura_page_view, name='licenciatura'),
+    path('web', views.web_page_view, name='web'),
     path('quizz', views.quizz, name='quizz'),
+    path('contactos', views.contactos_page_view, name='contactos'),
 
     path('blog', views.blog_page_view, name='blog'),
     path('novo/', views.novo_comentario_view, name='novo'),

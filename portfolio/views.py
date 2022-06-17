@@ -35,8 +35,11 @@ def about_page_view(request):
     return render(request, 'about.html', context)
 
 
-def licenciatura_page_view(request):
-    return render(request, 'licenciatura.html')
+def web_page_view(request):
+    return render(request, 'web.html')
+
+def contactos_page_view(request):
+    return render(request, 'contactos.html')
 
 
 def projetos_page_view(request):
