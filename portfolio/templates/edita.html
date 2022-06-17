@@ -4,7 +4,7 @@
 
 {% block main %}
 <h3>Comentário</h3>
-    <form action="{% url 'comentario:edita' comentario_id %}" method="POST">
+    <form action="{% url 'portfolio:edita' comentario_id %}" method="POST">
         {% csrf_token %}
         {{ form.as_p }}
 

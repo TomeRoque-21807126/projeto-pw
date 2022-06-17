@@ -69,7 +69,7 @@ def edita_comentario_view(request, comentario_id):
         form.save()
         return HttpResponseRedirect(reverse('portfolio:blog'))
 
-    context = {'form': form, 'portfolio_id': comentario_id}
+    context = {'form': form, 'comentario_id': comentario_id}
     return render(request, 'edita.html', context)
 
 
