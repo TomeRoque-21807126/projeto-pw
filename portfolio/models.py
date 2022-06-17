@@ -17,3 +17,6 @@ class PontuacaoQuizz(models.Model):
     pontuacao = models.IntegerField(max_length=10)
 
 
+
+
+
