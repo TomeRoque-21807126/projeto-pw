@@ -17,6 +17,35 @@ class PontuacaoQuizz(models.Model):
     pontuacao = models.IntegerField(max_length=10)
 
 
+class Linguagem(models.Model):
+    nome = models.CharField(max_length=64)
+
+    def __str__(self):
+        return f"{self.nome}"
 
 
 
+class Professor(models.Model):
+    nome = models.CharField(max_length=64)
+    numero = models.IntegerField(max_length=10)
+
+    def __str__(self):
+        return f"{self.nome}({self.numero})"
+
+
+class Projeto(models.Model):
+    nome = models.CharField(max_length=64)
+
+
+    def __str__(self):
+        return f"{self.nome}({self.id})"
+
+
+class Cadeira(models.Model):
+   nome = models.CharField(max_length=20)
+   ano = models.IntegerField()
+   descricao = models.TextField()
+   linguagens = models.ManyToManyField(Linguagem)
+   docente_teorica = models.ForeignKey(Professor, on_delete=models.CASCADE)
+   docentes_praticas = models.ManyToManyField(Professor, related_name='caderias')
+   projetos = models.ManyToManyField(Projeto)

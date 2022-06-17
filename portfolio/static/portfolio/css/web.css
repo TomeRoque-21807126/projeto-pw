@@ -35,8 +35,8 @@ main{
 
   background-color: black;
   color: white;
-  line-height: 10;
-  margin: 0 10px;
+  line-height: 2;
+
 }
 
 div {
@@ -49,6 +49,3 @@ background-color: black;
 
 }
 
-h1{
-line-height: 1.6;
-}
