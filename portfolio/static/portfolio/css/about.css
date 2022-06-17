@@ -120,6 +120,7 @@ body{
 }
 .skills {
   grid-area: footer;
+  background-image: url("../images/skills.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
